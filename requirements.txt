@@ -1,0 +1,10 @@
+# bijli-watch — server + simulator dependencies
+#
+# Server (server/app.py) — the only runtime dependency:
+Flask>=3.0,<4.0
+#
+# Simulator (simulator/simulator.py) uses ONLY the Python standard
+# library (urllib), so it runs anywhere Python 3.10+ does, with no installs.
+#
+# Development / tests:
+pytest>=8.0

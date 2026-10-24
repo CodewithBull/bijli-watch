@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.log
+
+# Arduino / editor artefacts
+*.elf
+*.bin
+.vscode/
+.idea/
+
+# Never commit real WiFi credentials or local config
+firmware/secrets.h
+local_config.py
